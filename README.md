@@ -11,3 +11,6 @@ Ralph Winzinger
 (<ralph.winzinger@senacor.com>)   
 Principal Architect   
 Senacor Technologies AG, Nürnberg   
+   
+   
+weitere Informationen im [wiki](wiki)
