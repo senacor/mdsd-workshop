@@ -13,4 +13,4 @@ Principal Architect
 Senacor Technologies AG, Nürnberg   
    
    
-weitere Informationen im [wiki](wiki)
+weitere Informationen im [wiki](https://github.com/senacor/mdsd-workshop/wiki)
