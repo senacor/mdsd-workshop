@@ -1,7 +1,7 @@
 mdsd-workshop
 =============
 
-MDSD Workshop, Januar 2013   
+MDSD Workshop, Januar 2014   
    
 Prof. Dr.-Ing. habil. Matthias Riebisch   
 Softwareentwicklungs- und Konstruktionsmethoden   
