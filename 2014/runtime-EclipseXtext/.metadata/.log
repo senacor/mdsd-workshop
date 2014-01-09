@@ -1556,3 +1556,249 @@ Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing
 !ENTRY org.apache.log4j 2 0 2014-01-09 22:51:54.231
 !MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
 
+!SESSION 2014-01-09 23:07:41.650 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:07:47.993
+!MESSAGE Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:07:48.004
+!MESSAGE Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-09 23:07:50.731
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:07:52.798
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
+
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:07:52.809
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register a content parser for 'grt'
+
+!SESSION 2014-01-09 23:19:34.986 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:19:38.645
+!MESSAGE Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:19:38.656
+!MESSAGE Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-09 23:19:41.268
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:19:43.453
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
+
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:19:43.462
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register a content parser for 'grt'
+
+!SESSION 2014-01-09 23:33:47.220 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:33:50.890
+!MESSAGE Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:33:50.902
+!MESSAGE Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-09 23:33:53.584
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:33:55.885
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
+
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:33:55.895
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register a content parser for 'grt'
+
+!SESSION 2014-01-09 23:34:59.556 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:35:02.028
+!MESSAGE Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:35:02.040
+!MESSAGE Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-09 23:35:04.673
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:35:06.844
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
+
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:35:06.853
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register a content parser for 'grt'
+
+!SESSION 2014-01-09 23:39:27.668 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:39:32.210
+!MESSAGE Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:39:32.222
+!MESSAGE Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-09 23:39:34.821
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:39:37.072
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
+
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:39:37.081
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register a content parser for 'grt'
+
+!SESSION 2014-01-09 23:42:45.805 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:42:50.052
+!MESSAGE Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:42:50.066
+!MESSAGE Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-09 23:42:52.789
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:42:54.824
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
+
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:42:54.832
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register a content parser for 'grt'
+
+!SESSION 2014-01-09 23:44:25.821 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:44:29.087
+!MESSAGE Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:44:29.101
+!MESSAGE Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-09 23:44:31.823
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:44:33.958
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
+
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:44:33.967
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register a content parser for 'grt'
+
+!SESSION 2014-01-09 23:48:16.892 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:48:23.596
+!MESSAGE Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:48:23.607
+!MESSAGE Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-09 23:48:26.141
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:48:28.129
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
+
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:48:28.138
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' and 'com.senacor.mdsd.hh.generater.greeter.ui' register a content parser for 'grt'
+
+!SESSION 2014-01-09 23:51:46.178 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:51:52.682
+!MESSAGE Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-09 23:51:55.258
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:51:57.228
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
+
+!SESSION 2014-01-09 23:54:06.481 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 23:54:10.269
+!MESSAGE Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-09 23:54:13.009
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 23:54:15.225
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
+
+!SESSION 2014-01-10 00:01:09.728 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-10 00:01:18.695
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-01-10 00:11:00.600 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-10 00:11:08.147
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

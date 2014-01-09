@@ -9,7 +9,7 @@
             class="com.senacor.mdsd.hh.splitgreeter.greeter.ui.GreeterExecutableExtensionFactory:org.eclipse.xtext.ui.editor.XtextEditor"
             contributorClass="org.eclipse.ui.editors.text.TextEditorActionContributor"
             default="true"
-            extensions="grt"
+            extensions="grt02"
             id="com.senacor.mdsd.hh.splitgreeter.greeter.Greeter"
             name="Greeter Editor">
         </editor>
@@ -213,13 +213,13 @@
 		point="org.eclipse.emf.ecore.extension_parser">
 		<parser
 			class="com.senacor.mdsd.hh.splitgreeter.greeter.ui.GreeterExecutableExtensionFactory:org.eclipse.xtext.resource.IResourceFactory"
-			type="grt">
+			type="grt02">
 		</parser>
 	</extension>
 	<extension point="org.eclipse.xtext.extension_resourceServiceProvider">
         <resourceServiceProvider
             class="com.senacor.mdsd.hh.splitgreeter.greeter.ui.GreeterExecutableExtensionFactory:org.eclipse.xtext.ui.resource.IResourceUIServiceProvider"
-            uriExtension="grt">
+            uriExtension="grt02">
         </resourceServiceProvider>
     </extension>
 
@@ -377,19 +377,19 @@
   <extension point="org.eclipse.compare.contentViewers">
     <viewer id="com.senacor.mdsd.hh.splitgreeter.greeter.Greeter.compare.contentViewers"
             class="com.senacor.mdsd.hh.splitgreeter.greeter.ui.GreeterExecutableExtensionFactory:org.eclipse.xtext.ui.compare.InjectableViewerCreator"
-            extensions="grt">
+            extensions="grt02">
     </viewer>
   </extension>
   <extension point="org.eclipse.compare.contentMergeViewers">
     <viewer id="com.senacor.mdsd.hh.splitgreeter.greeter.Greeter.compare.contentMergeViewers"
             class="com.senacor.mdsd.hh.splitgreeter.greeter.ui.GreeterExecutableExtensionFactory:org.eclipse.xtext.ui.compare.InjectableViewerCreator"
-            extensions="grt" label="Greeter Compare">
+            extensions="grt02" label="Greeter Compare">
      </viewer>
   </extension>
   <extension point="org.eclipse.ui.editors.documentProviders">
     <provider id="com.senacor.mdsd.hh.splitgreeter.greeter.Greeter.editors.documentProviders"
             class="com.senacor.mdsd.hh.splitgreeter.greeter.ui.GreeterExecutableExtensionFactory:org.eclipse.xtext.ui.editor.model.XtextDocumentProvider"
-            extensions="grt">
+            extensions="grt02">
     </provider>
   </extension>
 

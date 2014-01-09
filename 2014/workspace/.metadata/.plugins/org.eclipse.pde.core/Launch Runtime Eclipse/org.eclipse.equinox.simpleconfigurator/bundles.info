@@ -13,6 +13,9 @@ com.ning.async-http-client,1.6.5.20130531-2315,file:/Applications/eclipse_kepler
 com.senacor.mdsd.hh.editortweaks.greeter,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.editortweaks.greeter/,4,false
 com.senacor.mdsd.hh.editortweaks.greeter.tests,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.editortweaks.greeter.tests/,4,false
 com.senacor.mdsd.hh.editortweaks.greeter.ui,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.editortweaks.greeter.ui/,4,false
+com.senacor.mdsd.hh.generator.greeter,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.generator.greeter/,4,false
+com.senacor.mdsd.hh.generator.greeter.tests,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.generator.greeter.tests/,4,false
+com.senacor.mdsd.hh.generator.greeter.ui,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.generator.greeter.ui/,4,false
 com.senacor.mdsd.hh.greeter,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.greeter/,4,false
 com.senacor.mdsd.hh.greeter.tests,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.greeter.tests/,4,false
 com.senacor.mdsd.hh.greeter.ui,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.greeter.ui/,4,false

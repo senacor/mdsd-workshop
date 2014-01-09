@@ -18,7 +18,7 @@ import org.eclipse.xtext.scoping.Scopes
  *
  */
 class GreeterScopeProvider extends org.eclipse.xtext.scoping.impl.AbstractDeclarativeScopeProvider {
-	def IScope scope_Greeting_person(Greeting exp, EReference ref) {
+	def IScope scope_Greeting_person_XX(Greeting exp, EReference ref) {
 		System.out.println("I'm in ...")
 		// System.out.println(ref.)
 	    System.out.println(ref.EReferenceType.name)

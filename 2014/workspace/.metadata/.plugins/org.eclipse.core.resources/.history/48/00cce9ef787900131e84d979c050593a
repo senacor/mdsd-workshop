@@ -1,9 +1,0 @@
-grammar com.senacor.mdsd.hh.generater.greeter.Greeter with org.eclipse.xtext.common.Terminals
-
-generate greeter "http://www.senacor.com/mdsd/hh/generater/greeter/Greeter"
-
-Model:
-	greetings+=Greeting*;
-	
-Greeting:
-	'Hello' name=ID '!';

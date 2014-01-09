@@ -11,13 +11,19 @@
 			<item value=""/>
 		</list>
 	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.xtext.xtext.ui.wizard.project.NewXtextProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.xtext.projectwiz"/>
+		</list>
+	</section>
 	<section name="CleanDialogSettings">
 		<item value="484" key="DIALOG_WIDTH"/>
 		<item value="false" key="BUILD_NOW"/>
-		<item value="174" key="DIALOG_Y_ORIGIN"/>
 		<item value="true" key="BUILD_ALL"/>
-		<item value="312" key="DIALOG_X_ORIGIN"/>
+		<item value="174" key="DIALOG_Y_ORIGIN"/>
 		<item value="423" key="DIALOG_HEIGHT"/>
+		<item value="312" key="DIALOG_X_ORIGIN"/>
 		<item value="false" key="TOGGLE_SELECTED"/>
 	</section>
 </section>

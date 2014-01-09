@@ -11,17 +11,33 @@
 <launchGroup id="org.eclipse.debug.ui.launchGroup.debug">
 <mruHistory>
 <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.editortweaks.greeter/.launch/Launch Runtime Eclipse.launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.splitgreeter.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.splitgreeter.greeter).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.generator.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.generator.greeter).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.editortweaks.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.editortweaks.greeter).launch&quot;/&gt;&#10;"/>
 </mruHistory>
 <favorites>
 <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.editortweaks.greeter/.launch/Launch Runtime Eclipse.launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.splitgreeter.persons/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.splitgreeter.persons).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.splitgreeter.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.splitgreeter.greeter).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.greeter).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.editortweaks.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.editortweaks.greeter).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.generator.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.generator.greeter).launch&quot;/&gt;&#10;"/>
 </favorites>
 </launchGroup>
 <launchGroup id="org.eclipse.debug.ui.launchGroup.run">
 <mruHistory>
 <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.editortweaks.greeter/.launch/Launch Runtime Eclipse.launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.splitgreeter.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.splitgreeter.greeter).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.generator.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.generator.greeter).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.editortweaks.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.editortweaks.greeter).launch&quot;/&gt;&#10;"/>
 </mruHistory>
 <favorites>
 <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.editortweaks.greeter/.launch/Launch Runtime Eclipse.launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.splitgreeter.persons/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.splitgreeter.persons).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.splitgreeter.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.splitgreeter.greeter).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.greeter).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.editortweaks.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.editortweaks.greeter).launch&quot;/&gt;&#10;"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/com.senacor.mdsd.hh.generator.greeter/.launch/Generate Language Infrastructure (com.senacor.mdsd.hh.generator.greeter).launch&quot;/&gt;&#10;"/>
 </favorites>
 </launchGroup>
 </launchHistory>
