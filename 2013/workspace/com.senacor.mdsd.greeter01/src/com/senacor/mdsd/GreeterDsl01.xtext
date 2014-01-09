@@ -1,0 +1,21 @@
+grammar com.senacor.mdsd.GreeterDsl01 with org.eclipse.xtext.common.Terminals
+
+generate greeterDsl01 "http://www.senacor.com/mdsd/GreeterDsl01"
+// import "http://www.senacor.com/mdsd/GreeterDsl01"
+
+Model: {Model}
+	'start' 
+	greetings+=Greeting*;
+	
+Greeting:
+	(Greetword|Grusswort|GW) adressat=STRING '!';
+
+Greetword returns MyGreetword: {Foo}
+    'Hello';
+    
+Grusswort returns MyGreetword: {Foo}
+	'Hallo';
+	
+GW: {MyGreetword}
+	'Bon jour' 
+;

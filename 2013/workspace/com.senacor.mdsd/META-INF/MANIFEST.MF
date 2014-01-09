@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.senacor.mdsd
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: com.senacor.mdsd; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext;visibility:=reexport,
+ org.eclipse.xtext.xbase;resolution:=optional;visibility:=reexport,
+ org.eclipse.xtext.generator;resolution:=optional,
+ org.apache.commons.logging;bundle-version="1.0.4";resolution:=optional,
+ org.eclipse.emf.codegen.ecore;resolution:=optional,
+ org.eclipse.emf.mwe.utils;resolution:=optional,
+ org.eclipse.emf.mwe2.launch;resolution:=optional,
+ org.eclipse.xtext.util,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.common,
+ org.antlr.runtime,
+ org.eclipse.xtext.common.types
+Import-Package: org.apache.log4j,
+ org.eclipse.xtext.xbase.lib
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: com.senacor.mdsd,
+ com.senacor.mdsd.services,
+ com.senacor.mdsd.greeterDsl,
+ com.senacor.mdsd.greeterDsl.impl,
+ com.senacor.mdsd.greeterDsl.util,
+ com.senacor.mdsd.serializer,
+ com.senacor.mdsd.parser.antlr,
+ com.senacor.mdsd.parser.antlr.internal,
+ com.senacor.mdsd.validation,
+ com.senacor.mdsd.scoping,
+ com.senacor.mdsd.generator,
+ com.senacor.mdsd.formatting

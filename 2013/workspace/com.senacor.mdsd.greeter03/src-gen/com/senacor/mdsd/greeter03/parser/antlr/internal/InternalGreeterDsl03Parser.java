@@ -1,0 +1,378 @@
+package com.senacor.mdsd.greeter03.parser.antlr.internal; 
+
+import org.eclipse.xtext.*;
+import org.eclipse.xtext.parser.*;
+import org.eclipse.xtext.parser.impl.*;
+import org.eclipse.emf.ecore.util.EcoreUtil;
+import org.eclipse.emf.ecore.EObject;
+import org.eclipse.xtext.parser.antlr.AbstractInternalAntlrParser;
+import org.eclipse.xtext.parser.antlr.XtextTokenStream;
+import org.eclipse.xtext.parser.antlr.XtextTokenStream.HiddenTokens;
+import org.eclipse.xtext.parser.antlr.AntlrDatatypeRuleToken;
+import com.senacor.mdsd.greeter03.services.GreeterDsl03GrammarAccess;
+
+
+
+import org.antlr.runtime.*;
+import java.util.Stack;
+import java.util.List;
+import java.util.ArrayList;
+
+@SuppressWarnings("all")
+public class InternalGreeterDsl03Parser extends AbstractInternalAntlrParser {
+    public static final String[] tokenNames = new String[] {
+        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_STRING", "RULE_ID", "RULE_INT", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'Greetings'", "'{'", "'}'", "'Hello'", "'Hallo'", "'!'"
+    };
+    public static final int RULE_ID=5;
+    public static final int RULE_STRING=4;
+    public static final int T__16=16;
+    public static final int T__15=15;
+    public static final int T__12=12;
+    public static final int T__11=11;
+    public static final int T__14=14;
+    public static final int T__13=13;
+    public static final int RULE_ANY_OTHER=10;
+    public static final int RULE_INT=6;
+    public static final int RULE_WS=9;
+    public static final int RULE_SL_COMMENT=8;
+    public static final int EOF=-1;
+    public static final int RULE_ML_COMMENT=7;
+
+    // delegates
+    // delegators
+
+
+        public InternalGreeterDsl03Parser(TokenStream input) {
+            this(input, new RecognizerSharedState());
+        }
+        public InternalGreeterDsl03Parser(TokenStream input, RecognizerSharedState state) {
+            super(input, state);
+             
+        }
+        
+
+    public String[] getTokenNames() { return InternalGreeterDsl03Parser.tokenNames; }
+    public String getGrammarFileName() { return "../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g"; }
+
+
+
+     	private GreeterDsl03GrammarAccess grammarAccess;
+     	
+        public InternalGreeterDsl03Parser(TokenStream input, GreeterDsl03GrammarAccess grammarAccess) {
+            this(input);
+            this.grammarAccess = grammarAccess;
+            registerRules(grammarAccess.getGrammar());
+        }
+        
+        @Override
+        protected String getFirstRuleName() {
+        	return "Model";	
+       	}
+       	
+       	@Override
+       	protected GreeterDsl03GrammarAccess getGrammarAccess() {
+       		return grammarAccess;
+       	}
+
+
+
+    // $ANTLR start "entryRuleModel"
+    // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:67:1: entryRuleModel returns [EObject current=null] : iv_ruleModel= ruleModel EOF ;
+    public final EObject entryRuleModel() throws RecognitionException {
+        EObject current = null;
+
+        EObject iv_ruleModel = null;
+
+
+        try {
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:68:2: (iv_ruleModel= ruleModel EOF )
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:69:2: iv_ruleModel= ruleModel EOF
+            {
+             newCompositeNode(grammarAccess.getModelRule()); 
+            pushFollow(FOLLOW_ruleModel_in_entryRuleModel75);
+            iv_ruleModel=ruleModel();
+
+            state._fsp--;
+
+             current =iv_ruleModel; 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleModel85); 
+
+            }
+
+        }
+         
+            catch (RecognitionException re) { 
+                recover(input,re); 
+                appendSkippedTokens();
+            } 
+        finally {
+        }
+        return current;
+    }
+    // $ANTLR end "entryRuleModel"
+
+
+    // $ANTLR start "ruleModel"
+    // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:76:1: ruleModel returns [EObject current=null] : (otherlv_0= 'Greetings' otherlv_1= '{' ( (lv_greetings_2_0= ruleGreeting ) )* otherlv_3= '}' ) ;
+    public final EObject ruleModel() throws RecognitionException {
+        EObject current = null;
+
+        Token otherlv_0=null;
+        Token otherlv_1=null;
+        Token otherlv_3=null;
+        EObject lv_greetings_2_0 = null;
+
+
+         enterRule(); 
+            
+        try {
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:79:28: ( (otherlv_0= 'Greetings' otherlv_1= '{' ( (lv_greetings_2_0= ruleGreeting ) )* otherlv_3= '}' ) )
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:80:1: (otherlv_0= 'Greetings' otherlv_1= '{' ( (lv_greetings_2_0= ruleGreeting ) )* otherlv_3= '}' )
+            {
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:80:1: (otherlv_0= 'Greetings' otherlv_1= '{' ( (lv_greetings_2_0= ruleGreeting ) )* otherlv_3= '}' )
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:80:3: otherlv_0= 'Greetings' otherlv_1= '{' ( (lv_greetings_2_0= ruleGreeting ) )* otherlv_3= '}'
+            {
+            otherlv_0=(Token)match(input,11,FOLLOW_11_in_ruleModel122); 
+
+                	newLeafNode(otherlv_0, grammarAccess.getModelAccess().getGreetingsKeyword_0());
+                
+            otherlv_1=(Token)match(input,12,FOLLOW_12_in_ruleModel134); 
+
+                	newLeafNode(otherlv_1, grammarAccess.getModelAccess().getLeftCurlyBracketKeyword_1());
+                
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:88:1: ( (lv_greetings_2_0= ruleGreeting ) )*
+            loop1:
+            do {
+                int alt1=2;
+                int LA1_0 = input.LA(1);
+
+                if ( ((LA1_0>=14 && LA1_0<=15)) ) {
+                    alt1=1;
+                }
+
+
+                switch (alt1) {
+            	case 1 :
+            	    // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:89:1: (lv_greetings_2_0= ruleGreeting )
+            	    {
+            	    // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:89:1: (lv_greetings_2_0= ruleGreeting )
+            	    // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:90:3: lv_greetings_2_0= ruleGreeting
+            	    {
+            	     
+            	    	        newCompositeNode(grammarAccess.getModelAccess().getGreetingsGreetingParserRuleCall_2_0()); 
+            	    	    
+            	    pushFollow(FOLLOW_ruleGreeting_in_ruleModel155);
+            	    lv_greetings_2_0=ruleGreeting();
+
+            	    state._fsp--;
+
+
+            	    	        if (current==null) {
+            	    	            current = createModelElementForParent(grammarAccess.getModelRule());
+            	    	        }
+            	           		add(
+            	           			current, 
+            	           			"greetings",
+            	            		lv_greetings_2_0, 
+            	            		"Greeting");
+            	    	        afterParserOrEnumRuleCall();
+            	    	    
+
+            	    }
+
+
+            	    }
+            	    break;
+
+            	default :
+            	    break loop1;
+                }
+            } while (true);
+
+            otherlv_3=(Token)match(input,13,FOLLOW_13_in_ruleModel168); 
+
+                	newLeafNode(otherlv_3, grammarAccess.getModelAccess().getRightCurlyBracketKeyword_3());
+                
+
+            }
+
+
+            }
+
+             leaveRule(); 
+        }
+         
+            catch (RecognitionException re) { 
+                recover(input,re); 
+                appendSkippedTokens();
+            } 
+        finally {
+        }
+        return current;
+    }
+    // $ANTLR end "ruleModel"
+
+
+    // $ANTLR start "entryRuleGreeting"
+    // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:118:1: entryRuleGreeting returns [EObject current=null] : iv_ruleGreeting= ruleGreeting EOF ;
+    public final EObject entryRuleGreeting() throws RecognitionException {
+        EObject current = null;
+
+        EObject iv_ruleGreeting = null;
+
+
+        try {
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:119:2: (iv_ruleGreeting= ruleGreeting EOF )
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:120:2: iv_ruleGreeting= ruleGreeting EOF
+            {
+             newCompositeNode(grammarAccess.getGreetingRule()); 
+            pushFollow(FOLLOW_ruleGreeting_in_entryRuleGreeting204);
+            iv_ruleGreeting=ruleGreeting();
+
+            state._fsp--;
+
+             current =iv_ruleGreeting; 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleGreeting214); 
+
+            }
+
+        }
+         
+            catch (RecognitionException re) { 
+                recover(input,re); 
+                appendSkippedTokens();
+            } 
+        finally {
+        }
+        return current;
+    }
+    // $ANTLR end "entryRuleGreeting"
+
+
+    // $ANTLR start "ruleGreeting"
+    // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:127:1: ruleGreeting returns [EObject current=null] : ( (otherlv_0= 'Hello' | otherlv_1= 'Hallo' ) ( (lv_name_2_0= RULE_STRING ) ) otherlv_3= '!' ) ;
+    public final EObject ruleGreeting() throws RecognitionException {
+        EObject current = null;
+
+        Token otherlv_0=null;
+        Token otherlv_1=null;
+        Token lv_name_2_0=null;
+        Token otherlv_3=null;
+
+         enterRule(); 
+            
+        try {
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:130:28: ( ( (otherlv_0= 'Hello' | otherlv_1= 'Hallo' ) ( (lv_name_2_0= RULE_STRING ) ) otherlv_3= '!' ) )
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:131:1: ( (otherlv_0= 'Hello' | otherlv_1= 'Hallo' ) ( (lv_name_2_0= RULE_STRING ) ) otherlv_3= '!' )
+            {
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:131:1: ( (otherlv_0= 'Hello' | otherlv_1= 'Hallo' ) ( (lv_name_2_0= RULE_STRING ) ) otherlv_3= '!' )
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:131:2: (otherlv_0= 'Hello' | otherlv_1= 'Hallo' ) ( (lv_name_2_0= RULE_STRING ) ) otherlv_3= '!'
+            {
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:131:2: (otherlv_0= 'Hello' | otherlv_1= 'Hallo' )
+            int alt2=2;
+            int LA2_0 = input.LA(1);
+
+            if ( (LA2_0==14) ) {
+                alt2=1;
+            }
+            else if ( (LA2_0==15) ) {
+                alt2=2;
+            }
+            else {
+                NoViableAltException nvae =
+                    new NoViableAltException("", 2, 0, input);
+
+                throw nvae;
+            }
+            switch (alt2) {
+                case 1 :
+                    // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:131:4: otherlv_0= 'Hello'
+                    {
+                    otherlv_0=(Token)match(input,14,FOLLOW_14_in_ruleGreeting252); 
+
+                        	newLeafNode(otherlv_0, grammarAccess.getGreetingAccess().getHelloKeyword_0_0());
+                        
+
+                    }
+                    break;
+                case 2 :
+                    // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:136:7: otherlv_1= 'Hallo'
+                    {
+                    otherlv_1=(Token)match(input,15,FOLLOW_15_in_ruleGreeting270); 
+
+                        	newLeafNode(otherlv_1, grammarAccess.getGreetingAccess().getHalloKeyword_0_1());
+                        
+
+                    }
+                    break;
+
+            }
+
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:140:2: ( (lv_name_2_0= RULE_STRING ) )
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:141:1: (lv_name_2_0= RULE_STRING )
+            {
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:141:1: (lv_name_2_0= RULE_STRING )
+            // ../com.senacor.mdsd.greeter03/src-gen/com/senacor/mdsd/greeter03/parser/antlr/internal/InternalGreeterDsl03.g:142:3: lv_name_2_0= RULE_STRING
+            {
+            lv_name_2_0=(Token)match(input,RULE_STRING,FOLLOW_RULE_STRING_in_ruleGreeting288); 
+
+            			newLeafNode(lv_name_2_0, grammarAccess.getGreetingAccess().getNameSTRINGTerminalRuleCall_1_0()); 
+            		
+
+            	        if (current==null) {
+            	            current = createModelElement(grammarAccess.getGreetingRule());
+            	        }
+                   		setWithLastConsumed(
+                   			current, 
+                   			"name",
+                    		lv_name_2_0, 
+                    		"STRING");
+            	    
+
+            }
+
+
+            }
+
+            otherlv_3=(Token)match(input,16,FOLLOW_16_in_ruleGreeting305); 
+
+                	newLeafNode(otherlv_3, grammarAccess.getGreetingAccess().getExclamationMarkKeyword_2());
+                
+
+            }
+
+
+            }
+
+             leaveRule(); 
+        }
+         
+            catch (RecognitionException re) { 
+                recover(input,re); 
+                appendSkippedTokens();
+            } 
+        finally {
+        }
+        return current;
+    }
+    // $ANTLR end "ruleGreeting"
+
+    // Delegated rules
+
+
+ 
+
+    public static final BitSet FOLLOW_ruleModel_in_entryRuleModel75 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleModel85 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_11_in_ruleModel122 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_12_in_ruleModel134 = new BitSet(new long[]{0x000000000000E000L});
+    public static final BitSet FOLLOW_ruleGreeting_in_ruleModel155 = new BitSet(new long[]{0x000000000000E000L});
+    public static final BitSet FOLLOW_13_in_ruleModel168 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleGreeting_in_entryRuleGreeting204 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleGreeting214 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_14_in_ruleGreeting252 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_15_in_ruleGreeting270 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_RULE_STRING_in_ruleGreeting288 = new BitSet(new long[]{0x0000000000010000L});
+    public static final BitSet FOLLOW_16_in_ruleGreeting305 = new BitSet(new long[]{0x0000000000000002L});
+
+}

@@ -1,0 +1,14 @@
+// Variante 1
+//
+// Model:
+//	greetings+=Greeting*
+//;
+//	
+// Greeting:
+//	'Hello' name=STRING '!'
+// ;
+
+Hello "Mickey"!
+Hello "Mouse"!
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="737" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd.greeter02" project="com.senacor.mdsd.greeter02" provider="My Company"/>
+	<bundle bundleID="736" class="com.senacor.mdsd.ui.internal.GreeterDsl01Activator" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd.greeter01.ui" project="com.senacor.mdsd.greeter01.ui" provider="My Company"/>
+	<bundle bundleID="742" class="com.senacor.mdsd.greeter03.ui.internal.GreeterDsl03Activator" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd.greeter03.ui" project="com.senacor.mdsd.greeter03.ui" provider="My Company"/>
+	<bundle bundleID="733" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd" project="com.senacor.mdsd" provider="My Company"/>
+	<bundle bundleID="741" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd.greeter03.tests" project="com.senacor.mdsd.greeter03.tests" provider="My Company"/>
+	<bundle bundleID="734" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd.greeter01" project="com.senacor.mdsd.greeter01" provider="My Company"/>
+	<bundle bundleID="735" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd.greeter01.tests" project="com.senacor.mdsd.greeter01.tests" provider="My Company"/>
+	<bundle bundleID="739" class="com.senacor.mdsd.greeter02.ui.internal.GreeterDsl02Activator" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd.greeter02.ui" project="com.senacor.mdsd.greeter02.ui" provider="My Company"/>
+	<bundle bundleID="744" class="com.senacor.mdsd.ui.internal.GreeterDslActivator" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd.ui" project="com.senacor.mdsd.ui" provider="My Company"/>
+	<bundle bundleID="743" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd.tests" project="com.senacor.mdsd.tests" provider="My Company"/>
+	<bundle bundleID="740" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd.greeter03" project="com.senacor.mdsd.greeter03" provider="My Company"/>
+	<bundle bundleID="738" localization="OSGI-INF/l10n/bundle" name="com.senacor.mdsd.greeter02.tests" project="com.senacor.mdsd.greeter02.tests" provider="My Company"/>
+</map>

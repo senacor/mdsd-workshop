@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http://www.senacor.com/mdsd/GreeterDsl01" 
+       class = "com.senacor.mdsd.greeterDsl01.GreeterDsl01Package"
+       genModel = "com/senacor/mdsd/GreeterDsl01.genmodel" /> 
+	
+  </extension>
+
+
+
+
+</plugin>
