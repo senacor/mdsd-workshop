@@ -1,0 +1,11 @@
+grammar com.senacor.mdsd.hh.splitgreeter.persons.Persons with org.eclipse.xtext.common.Terminals
+
+generate persons "http://www.senacor.com/mdsd/hh/splitgreeter/persons/Persons"
+
+Model:
+	persons+=Person*
+;
+	
+Person:
+ 	'Person' name=ID 'firstname' fn=STRING 'lastname' ln=STRING
+;
