@@ -1539,3 +1539,20 @@ Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing
 !ENTRY org.apache.log4j 2 0 2014-01-08 19:21:44.157
 !MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
 
+!SESSION 2014-01-09 22:51:39.803 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/../runtime-EclipseXtext -dev file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os macosx -ws cocoa -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-01-09 22:51:49.852
+!MESSAGE Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register an extension parser for 'grt'
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-09 22:51:52.198
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.log4j 2 0 2014-01-09 22:51:54.231
+!MESSAGE org.eclipse.xtext.internal.ExtensionResourceServiceProviderRegistryReader  - Both 'com.senacor.mdsd.hh.greeter.ui' and 'com.senacor.mdsd.hh.splitgreeter.greeter.ui' register a content parser for 'grt'
+
