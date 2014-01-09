@@ -1,0 +1,20 @@
+grammar com.senacor.mdsd.hh.generater.greeter.Greeter with org.eclipse.xtext.common.Terminals
+
+generate greeter "http://www.senacor.com/mdsd/hh/generater/greeter/Greeter"
+
+Model:
+	persons+=Person*
+	greetings+=Greeting*
+;
+	
+Person:
+	'Person' name=ID 'firstname' fn=STRING 'lastname' ln=STRING
+;
+
+Greeting:
+	greetword=Greetword person=[Person] '!'
+;
+
+enum Greetword:
+  DE='Hallo' | DE='Huhu' | EN='Hello' | FR='Bonjour'
+;
