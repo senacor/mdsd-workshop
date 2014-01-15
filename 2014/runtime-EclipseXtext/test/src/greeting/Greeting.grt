@@ -1,3 +1,6 @@
+Hello AA !
+
+
 // ###########################################
 // Variante 1
 //
@@ -114,6 +117,7 @@ Huhu "Dagobert"!
 //  FR='Bonjour'
 // ;
 
+/*
 Person MM firstname "Mickey" lastname "Mouse"
 Person DD firstname "Dagobert" lastname "Duck"
 Person GG firstname "Gustav" lastname "Gans"
@@ -122,3 +126,5 @@ Hallo MM!
 Huhu DD!
 Bonjour GG!
 Hello AA!
+* 
+*/
