@@ -7,23 +7,11 @@
     editorPluginID="com.senacor.mdsd.hh.greeter.editor" runtimeVersion="2.9">
   <genPackages prefix="Greeter" basePackage="com.senacor.mdsd.hh.greeter" disposableProviderFactory="true"
       fileExtensions="grt" ecorePackage="Greeter.ecore#/">
-    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Greeter.ecore#//Greetword">
-      <genEnumLiterals ecoreEnumLiteral="Greeter.ecore#//Greetword/DE"/>
-      <genEnumLiterals ecoreEnumLiteral="Greeter.ecore#//Greetword/EN"/>
-      <genEnumLiterals ecoreEnumLiteral="Greeter.ecore#//Greetword/FR"/>
-    </genEnums>
     <genClasses ecoreClass="Greeter.ecore#//Model">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Greeter.ecore#//Model/persons"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Greeter.ecore#//Model/greetings"/>
     </genClasses>
-    <genClasses ecoreClass="Greeter.ecore#//Person">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Greeter.ecore#//Person/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Greeter.ecore#//Person/fn"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Greeter.ecore#//Person/ln"/>
-    </genClasses>
     <genClasses ecoreClass="Greeter.ecore#//Greeting">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Greeter.ecore#//Greeting/greetword"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Greeter.ecore#//Greeting/person"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Greeter.ecore#//Greeting/name"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>

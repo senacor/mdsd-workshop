@@ -1,0 +1,9 @@
+package com.senacor.mdsd.hh.xtend.test2
+
+class HelloWorld {
+	def static main(String[] args) {
+		val greeting = "GUTEN TAG"
+		
+		System::out.println(greeting.toLowerCase.toFraenkisch)
+	}
+}

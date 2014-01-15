@@ -1,0 +1,8 @@
+package lambda
+
+
+class LambdaTestXtend {
+	def static void main(String[] args) {
+		LambdaTestJava.foo([str|System.out.println(str)])
+	}
+}

@@ -1,0 +1,11 @@
+package com.senacor.mdsd.hh.xtend.test1
+
+class HelloWorld {
+	def static main(String[] args) {
+		System::out.println("abc");
+	}
+	
+	def sayHello() {
+		System.out.println("Hello, World!")
+	}
+}

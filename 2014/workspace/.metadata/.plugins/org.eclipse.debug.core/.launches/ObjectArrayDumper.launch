@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/com.senacor.mdsd.hh.xtend/src/com/senacor/mdsd/hh/xtend/test2/ObjectArrayDumper.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.senacor.mdsd.hh.xtend.test2.ObjectArrayDumper"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="com.senacor.mdsd.hh.xtend"/>
+</launchConfiguration>

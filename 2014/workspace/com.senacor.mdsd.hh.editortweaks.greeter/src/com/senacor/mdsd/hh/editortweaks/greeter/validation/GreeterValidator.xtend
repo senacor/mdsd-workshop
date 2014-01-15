@@ -16,7 +16,7 @@ import org.eclipse.emf.codegen.ecore.genmodel.impl.Literals
  * see http://www.eclipse.org/Xtext/documentation.html#validation
  */
 class GreeterValidator extends AbstractGreeterValidator {
-
+  /*
   @Check
   def checkPersonUndestandsGreeting(Greeting greeting) {
     // System.out.println(greeting.class.simpleName);
@@ -30,4 +30,5 @@ class GreeterValidator extends AbstractGreeterValidator {
     	)
     }
   }
+  */
 }

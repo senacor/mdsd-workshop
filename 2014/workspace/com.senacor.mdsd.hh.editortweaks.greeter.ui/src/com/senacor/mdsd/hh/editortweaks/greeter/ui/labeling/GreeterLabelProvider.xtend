@@ -19,12 +19,9 @@ class GreeterLabelProvider extends org.eclipse.xtext.ui.label.DefaultEObjectLabe
 	}
 
 	// Labels and icons can be computed like this:
-	
+	/*
 	def text(Greeting greeting) {
 		greeting.greetword+' to '+greeting.person.name
 	}
-//
-//	def image(Greeting ele) {
-//		'Greeting.gif'
-//	}
+	*/
 }

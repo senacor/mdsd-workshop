@@ -1,0 +1,17 @@
+package foo.bar
+
+// import foo.bar.NameProvider
+
+class HelloWorld {
+	var static greeting ="Hello"
+	
+	def static void main(String[] args) {
+		sayHello(NameProvider.name)
+	}
+	
+	def static sayHello(String name) {
+		greeting = greeting+" "+name;
+		System.out.println(greeting)
+	}
+
+}

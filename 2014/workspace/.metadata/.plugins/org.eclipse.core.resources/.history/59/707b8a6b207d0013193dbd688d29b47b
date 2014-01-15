@@ -1,0 +1,7 @@
+package com.senacor.mdsd.hh.xtend.test2
+
+class Extension {
+	def toFraenkisch(String s) {
+		
+	}
+}

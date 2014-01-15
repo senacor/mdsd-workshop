@@ -19,6 +19,9 @@ com.senacor.mdsd.hh.generator.greeter.ui,1.0.0.qualifier,file:/Users/rwinzing/Do
 com.senacor.mdsd.hh.greeter,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.greeter/,4,false
 com.senacor.mdsd.hh.greeter.tests,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.greeter.tests/,4,false
 com.senacor.mdsd.hh.greeter.ui,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.greeter.ui/,4,false
+com.senacor.mdsd.hh.rest.service,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.rest.service/,4,false
+com.senacor.mdsd.hh.rest.service.tests,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.rest.service.tests/,4,false
+com.senacor.mdsd.hh.rest.service.ui,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.rest.service.ui/,4,false
 com.senacor.mdsd.hh.splitgreeter.greeter,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.splitgreeter.greeter/,4,false
 com.senacor.mdsd.hh.splitgreeter.greeter.tests,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.splitgreeter.greeter.tests/,4,false
 com.senacor.mdsd.hh.splitgreeter.greeter.ui,1.0.0.qualifier,file:/Users/rwinzing/Documents/Senacor/Vortraege/Uni_Hamburg/2014/workspace/com.senacor.mdsd.hh.splitgreeter.greeter.ui/,4,false

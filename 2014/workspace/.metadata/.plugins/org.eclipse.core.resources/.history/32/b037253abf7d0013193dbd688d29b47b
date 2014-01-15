@@ -1,0 +1,15 @@
+package foo.bar
+
+class HelloWorld2 {
+	def static void main(String[] args) {
+		
+	}
+	
+	def static dispatch dump(String s) {
+		"I'm a String: "+s
+	}
+	
+	def static dispatch dump(Number n) {
+		"I'm a Number: "+n
+	}
+}

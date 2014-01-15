@@ -1,0 +1,7 @@
+package com.senacor.mdsd.hh.xtend.test1
+
+class HelloWorld {
+	def sayHello() {
+		System.out.println("Hello, World!")
+	}
+}

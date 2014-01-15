@@ -1,0 +1,5 @@
+package foo.bar;
+
+@SuppressWarnings("all")
+public class HelloWorld {
+}

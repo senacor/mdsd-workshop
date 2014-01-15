@@ -1,0 +1,27 @@
+package foo.bar
+
+class HelloWorld {
+	var static greeting ="Hello"
+	
+	def static void main(String[] args) {
+		sayHello(NameProvider.getName())
+		System.out.println(auchEinName)
+	}
+	
+	def static sayHello(String name) {
+		greeting = greeting+" "+name;
+		System.out.println(greeting)
+	}
+	
+	
+	def static String auchEinName() '''
+	egi
+	erert
+	e
+	z
+	zrz
+	etzetzztrezu
+	rtzerztzttz
+	ertzrt
+	'''
+}

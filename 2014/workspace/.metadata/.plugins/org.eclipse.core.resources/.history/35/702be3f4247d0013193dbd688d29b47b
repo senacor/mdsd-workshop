@@ -1,0 +1,40 @@
+package com.senacor.mdsd.hh.xtend.test2;
+
+import com.google.common.base.Objects;
+
+@SuppressWarnings("all")
+public class Extension {
+  public static String toFraenkisch(final String s) {
+    int i = 0;
+    String newS = "";
+    int _length = s.length();
+    boolean _lessThan = (i < _length);
+    boolean _while = _lessThan;
+    while (_while) {
+      {
+        char nextChar = s.charAt(i);
+        char _charValue = Character.valueOf(nextChar).charValue();
+        boolean _equals = Objects.equal(Character.valueOf(_charValue), "t");
+        if (_equals) {
+          Character _character = new Character('d');
+          nextChar = (_character).charValue();
+          System.out.println("in1");
+        } else {
+          char _charValue_1 = Character.valueOf(nextChar).charValue();
+          boolean _equals_1 = Objects.equal(Character.valueOf(_charValue_1), "p");
+          if (_equals_1) {
+            nextChar = 'b';
+            System.out.println("in1");
+          }
+        }
+        newS = (newS + Character.valueOf(nextChar));
+        System.out.println(newS);
+        i = (i + 1);
+      }
+      int _length_1 = s.length();
+      boolean _lessThan_1 = (i < _length_1);
+      _while = _lessThan_1;
+    }
+    return newS;
+  }
+}

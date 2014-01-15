@@ -1,0 +1,12 @@
+package com.senacor.mdsd.hh.xtend.test3
+
+class LambdaExtendTest {
+	def static void main(String[] args) {
+		foo()
+	}
+	
+	def foo(LambdaInterface i) {
+		val s = "Ein String ..."
+		i.doSomethingWithAString(s)
+	}
+}

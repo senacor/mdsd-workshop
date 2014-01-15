@@ -1,0 +1,14 @@
+package foo.bar
+
+class HelloWorld {
+	var static greeting ="Hello"
+	
+	def static void main(String[] args) {
+		sayHello("Ralph")
+	}
+	
+	def static sayHello(String name) {
+		greeting = greeting+" "+name;
+		System.out.println(greeting)
+	}
+}

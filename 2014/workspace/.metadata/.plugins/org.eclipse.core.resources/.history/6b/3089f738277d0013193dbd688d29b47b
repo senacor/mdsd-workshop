@@ -1,0 +1,7 @@
+package com.senacor.mdsd.hh.xtend.test2;
+
+public class ObjectArrayDumper {
+	public static void main(String[] args) {
+		Object[] objs = new Object[] {"Hallo", "Test", new Double("1.3")};
+	}
+}

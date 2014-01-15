@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 4 resources" deleteContents="true" description="Delete 4 resources" element1="/com.senacor.mdsd.hh.generater.greeter" element2="/com.senacor.mdsd.hh.generater.greeter.sdk" element3="/com.senacor.mdsd.hh.generater.greeter.tests" element4="/com.senacor.mdsd.hh.generater.greeter.ui" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1389307782203"/>
+</session>

@@ -1,0 +1,21 @@
+package com.senacor.mdsd.hh.xtend.test2
+
+class Extension {
+	def toFraenkisch(String s) {
+		var i=0
+		var newS = ""
+		
+		while (i<s.length()) {
+			var nextChar = s.charAt(i)
+			if (nextChar == 't') {
+				nextChar = 'd'
+			} else if (nextChar == 'p') {
+				nextChar = 'b'
+			}
+			newS = newS+nextChar;
+			i = i+1
+		}
+		
+		newS
+	}
+}

@@ -1,0 +1,7 @@
+package com.senacor.mdsd.hh.xtend.test3
+
+class LambdaExtendTest {
+	def foo(LambdaInterface i, s) {
+		i.doSomethingWithAString(s)
+	}
+}
