@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
-		<item value="false" key="ShowDerived"/>
 		<item value="true" key="ShowStatusLine"/>
+		<item value="false" key="ShowDerived"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/com.senacor.mdsd.hh.editortweaks.greeter/src-gen/com/senacor/mdsd/hh/editortweaks/greeter/greeter/GreeterPackage.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="43" key="DIALOG_Y_ORIGIN"/>
-			<item value="377" key="DIALOG_X_ORIGIN"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="377" key="DIALOG_X_ORIGIN"/>
 			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
@@ -24,19 +24,19 @@
 			<item value=""/>
 		</list>
 	</section>
-	<section name="CleanDialogSettings">
-		<item value="484" key="DIALOG_WIDTH"/>
-		<item value="false" key="BUILD_NOW"/>
-		<item value="174" key="DIALOG_Y_ORIGIN"/>
-		<item value="true" key="BUILD_ALL"/>
-		<item value="312" key="DIALOG_X_ORIGIN"/>
-		<item value="423" key="DIALOG_HEIGHT"/>
-		<item value="false" key="TOGGLE_SELECTED"/>
-	</section>
 	<section name="NewWizardAction">
 		<item value="org.eclipse.xtext.xtext.ui.wizard.project.NewXtextProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.xtext.projectwiz"/>
 		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item value="484" key="DIALOG_WIDTH"/>
+		<item value="false" key="BUILD_NOW"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="174" key="DIALOG_Y_ORIGIN"/>
+		<item value="423" key="DIALOG_HEIGHT"/>
+		<item value="312" key="DIALOG_X_ORIGIN"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
 	</section>
 </section>
