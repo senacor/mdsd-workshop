@@ -1,0 +1,9 @@
+Persons {
+	user1 firstname Ralph lastname Winzinger m
+	linkTo User2
+}
+
+Greetings {
+   Bonjour user1!
+   Hallo otheruser!
+}

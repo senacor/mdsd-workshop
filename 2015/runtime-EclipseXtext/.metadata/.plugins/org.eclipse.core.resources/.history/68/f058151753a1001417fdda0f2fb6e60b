@@ -1,0 +1,6 @@
+service kunde {
+	desc "Das ist ein Kundenservice"
+	flavour hazelcast
+	operations {
+		abc
+	}

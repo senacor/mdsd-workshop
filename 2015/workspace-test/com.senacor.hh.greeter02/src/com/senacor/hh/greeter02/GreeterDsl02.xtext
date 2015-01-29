@@ -1,0 +1,11 @@
+grammar com.senacor.hh.greeter02.GreeterDsl02 with org.eclipse.xtext.common.Terminals
+
+generate greeterDsl02 "http://www.senacor.com/hh/greeter02/GreeterDsl02"
+
+Model:
+	'Greetings' '{'
+	  greetings+=Greeting+
+	'}';
+	
+Greeting:
+	'Hello' name=ID '!';

@@ -1,0 +1,10 @@
+service TestService {
+	desc "Dies ist ein Testservice"
+	
+	flavour hazelcast
+	
+	operations {
+		
+	}
+}
+

@@ -1,0 +1,14 @@
+package com.senacor.services.prototype;
+
+import com.senacor.services.base.HZService;
+
+public class HZMeinTestImpl extends AbstractHZMeinTest {
+    @Override
+    public String getDescription() {
+        return null;
+    }
+
+    public static void main(String[] args) {
+        new HZMeinTestImpl();
+    }
+}

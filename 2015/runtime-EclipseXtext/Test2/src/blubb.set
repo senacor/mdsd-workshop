@@ -1,0 +1,9 @@
+service MeinTest {
+  desc "Hallo"
+  
+  flavour  hazelcast
+  
+  operations {
+  	baz secure no
+  }
+}

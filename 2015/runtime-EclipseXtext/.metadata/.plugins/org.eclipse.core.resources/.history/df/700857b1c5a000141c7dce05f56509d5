@@ -1,0 +1,12 @@
+rootDir(dir="/tmp/hh")
+
+operation someop {
+	parameter INT index
+	returns INT resultcode
+}
+
+service somesrv {
+	desc "dies ist ein Test"
+
+   
+}

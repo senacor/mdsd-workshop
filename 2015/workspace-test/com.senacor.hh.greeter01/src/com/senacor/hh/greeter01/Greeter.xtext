@@ -1,0 +1,27 @@
+grammar com.senacor.hh.greeter01.Greeter with org.eclipse.xtext.common.Terminals
+
+import "http://www.senacor.com/hh/person01/Person01" as Persons
+
+generate greeter "http://www.senacor.com/hh/greeter01/Greeter"
+
+Model:
+	'Persons' '{'
+	   persons+=(LocalPerson|LinkedPerson)*
+	'}'
+	
+	'Greetings' '{'
+	   greetings+=Greeting*
+	'}';
+
+LinkedPerson:
+	'linkTo' ref=[Persons::Person]
+;
+	
+LocalPerson:
+	name=ID 'firstname' firstname=ID 'lastname' lastname=ID gender=('w'|'m');
+
+Greeting:
+	word=Greetword person=[LocalPerson] '!';
+	
+enum Greetword:
+  DE='Hallo' | EN='Hello' | FR='Bonjour';

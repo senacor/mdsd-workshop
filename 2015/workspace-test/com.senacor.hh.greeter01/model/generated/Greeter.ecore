@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="greeter" nsURI="http://www.senacor.com/hh/greeter01/Greeter"
+    nsPrefix="greeter">
+  <eClassifiers xsi:type="ecore:EClass" name="Model">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="persons" upperBound="-1"
+        eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EObject" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="greetings" upperBound="-1"
+        eType="#//Greeting" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LinkedPerson">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ref" eType="ecore:EClass platform:/resource/com.senacor.hh.person01/model/generated/Person01.ecore#//Person"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LocalPerson">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstname" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastname" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="gender" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Greeting">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="word" eType="#//Greetword"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="person" eType="#//LocalPerson"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Greetword">
+    <eLiterals name="DE" literal="Hallo"/>
+    <eLiterals name="EN" value="1" literal="Hello"/>
+    <eLiterals name="FR" value="2" literal="Bonjour"/>
+  </eClassifiers>
+</ecore:EPackage>

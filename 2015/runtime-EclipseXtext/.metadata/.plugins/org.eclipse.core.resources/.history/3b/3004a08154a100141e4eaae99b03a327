@@ -1,0 +1,17 @@
+service kunde {
+	desc "Das ist ein Kundenservice"
+	flavour hazelcast
+	operations {
+		speichern
+		laden
+	}
+}
+
+service warenkorb {
+	desc "Das ist ein Warenkorbservice"
+	flavour microservice
+	operations {
+		loeschen
+		suchen
+	}
+}

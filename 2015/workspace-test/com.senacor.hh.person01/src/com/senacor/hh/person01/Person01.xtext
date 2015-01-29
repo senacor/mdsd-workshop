@@ -1,0 +1,9 @@
+grammar com.senacor.hh.person01.Person01 with org.eclipse.xtext.common.Terminals
+
+generate person01 "http://www.senacor.com/hh/person01/Person01"
+
+Model:
+	persons+=Person*;
+	
+Person:
+	name=ID fn=STRING;

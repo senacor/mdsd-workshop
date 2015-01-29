@@ -1,0 +1,20 @@
+grammar com.senacor.hh.service.ServiceDsl with org.eclipse.xtext.common.Terminals
+
+generate serviceDsl "http://www.senacor.com/hh/service/ServiceDsl"
+
+Model:
+	services+=Service*;
+	
+Service:
+  'service' name=ID '{'
+	'desc' description=STRING
+	'flavour' deployment=DeploymentEnum
+	'operations' '{'
+      operations+=ID+
+	'}'
+   '}'
+;
+
+DeploymentEnum: 
+	MS='microservice' | HZ='hazelcast'
+;

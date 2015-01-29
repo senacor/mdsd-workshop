@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;com.senacor.hh.greeter01&apos;&#x0A;- Original project: &apos;com.senacor.hh.greeter01&apos;&#x0A;- Original elements:&#x0A;     com.senacor.hh.greeter01/src/com.senacor.unihh.mdsd&#x0A;     com.senacor.unihh.mdsd.GreeterDslRuntimeModule.java&#x0A;     com.senacor.unihh.mdsd.GreeterDslStandaloneSetup.java&#x0A;- Delete subpackages" description="Delete elements" element1="/src&lt;com.senacor.unihh.mdsd.validation" element2="/src&lt;com.senacor.unihh.mdsd.scoping" element3="/src&lt;com.senacor.unihh.mdsd.generator" element4="/src&lt;com.senacor.unihh.mdsd.formatting" element5="/src&lt;com.senacor.unihh.mdsd" element6="/src&lt;com.senacor.unihh" elements="6" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1421162419809" subPackages="true" version="1.0"/>
+</session>

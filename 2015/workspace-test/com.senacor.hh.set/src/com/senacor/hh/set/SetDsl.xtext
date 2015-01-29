@@ -1,0 +1,122 @@
+grammar com.senacor.hh.set.SetDsl with org.eclipse.xtext.common.Terminals
+
+generate setDsl "http://www.senacor.com/hh/set/SetDsl"
+
+Model:
+	// RootDir
+	services+=Service*
+	operations+=Operation*
+	entities+=Entity*
+; 
+	
+RootDir:
+	'rootDir' '(' 'dir' '=' dir=STRING ')'
+;
+Service:
+  'service' name=ID '{'
+	'desc' description=STRING
+	'flavour' deployment=DeploymentEnum
+	
+	'operations' '{'
+	  operations+=OperationDecl*
+	'}'
+  '}';
+  
+enum DeploymentEnum:
+	ML='monolith' |
+	MS='microservice' |
+	HZ='hazelcast' |
+	VX='vertx'
+;
+
+OperationDecl: operation=[Operation] 'secure' ('yes'|'no');
+
+Operation:
+	'operation' name=ID '{'
+	  'parameter' paramType=TypeEnum paramName=ID 
+	  'returns' returnType=TypeEnum returnName=ID
+	'}'
+;
+
+enum TypeEnum: BOOLEAN | STRING | INT;
+
+PRICE: vorkomma=INT ',' nachkomma=INT curr=CurrencyEnum;
+DATE : tag=INT '.' monat=INT '.' jahr=INT;
+
+enum CurrencyEnum : 
+	EUR='euro' |
+	USD='dollar' |
+	CHF='franken'
+;
+
+
+Attribute: type=TypeEnum name=ID;
+
+Entity: 
+    'entity' name=ID '{'
+	  attributes+=Attribute*
+	'}'
+;
+
+/*
+service xyz {
+  desc "Dieser Service kümmert sich den Warenkorb"
+ 
+  flavour monolith(|microservice|internal)
+ 
+  operations {
+    ref1 secure yes(|no)
+    ref2 secure yes(|no)
+    ref3 secure yes(|no)
+  }
+ 
+  isAlive true(|false)
+}
+
+operation create {
+  desc "Speichert Daten"
+ 
+  parameters {
+    KUNDE         kd
+        PRODUKT       prod
+        LIEFERADRESSE adr
+  }
+ 
+  returned value {
+    INT           id
+  }
+}
+ 
+PrimitiveTypes INT, STRING, BOOLEAN
+ 
+Type PRICE {
+  12,34 EUR
+}
+ 
+Entity KUNDE {
+  INT    id
+  STRING vorname
+  STRING nachname
+}
+ 
+Entity PRODUKT {
+  INT ID
+  STRING hersteller
+  STRING modell
+  PRICE  preis
+}
+ 
+Entity ADRESSE {
+  INT    id
+  STRING strasse
+  STRING plz
+  STRING ort
+}
+ 
+Entity WARENKORB {
+  INT kunde
+  INT adresse
+  INT wert
+}
+
+*/

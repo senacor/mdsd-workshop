@@ -1,0 +1,19 @@
+service TestService {
+	desc "Dies ist ein Testservice"
+	
+	flavour hazelcast
+	
+	operations {
+	  foo secure no
+	}
+}
+
+operation foo {
+	parameter INT index
+	returns INT resultcode
+}
+
+operation baz {
+	parameter STRING name
+	returns INT resultcode
+}

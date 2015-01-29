@@ -1,0 +1,32 @@
+package com.senacor.services.AndererService;
+
+
+import com.senacor.services.base.MSService;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+/**
+ * Created by WinzingeR on 20.01.2015.
+ */
+@Controller
+@EnableAutoConfiguration
+public class MSAndererServiceImpl extends AbstractMSAndererService {
+    @Override
+    public String getDescription() {
+        return "Dies ist ein Microservice";
+    }
+
+    @RequestMapping("/")
+    @ResponseBody
+    String home() {
+        return "Hello World!";
+    }
+
+
+    public static void main(String[] args) throws Exception {
+        SpringApplication.run(MSAndererService.class, args);
+    }
+}

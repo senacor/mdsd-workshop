@@ -1,0 +1,10 @@
+package com.hh.services;
+
+/**
+* Das ist ein Kundenservice
+*/
+public class Servicekunde {
+  public static void main(String[] args) {
+	  System.out.println("ich bin service '"+kunde+"'");
+  }
+}
