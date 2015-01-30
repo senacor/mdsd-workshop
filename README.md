@@ -1,7 +1,7 @@
 mdsd-workshop
 =============
 
-xMDSD Workshop, Januar 2015
+MDSD Workshop an der Universität Hamburg
    
 Prof. Dr.-Ing. habil. Matthias Riebisch   
 Softwareentwicklungs- und Konstruktionsmethoden   
