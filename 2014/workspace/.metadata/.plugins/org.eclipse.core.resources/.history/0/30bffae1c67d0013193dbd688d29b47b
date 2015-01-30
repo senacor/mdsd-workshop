@@ -1,7 +1,0 @@
-package lambda
-
-import lambda.LambdaTestJava
-
-class LambdaTestXtend {
-	LambdaTestJava.foo([str|System.out.println(str)])
-}

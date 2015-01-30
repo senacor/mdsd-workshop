@@ -1,7 +1,0 @@
-package com.senacor.mdsd.hh.xtend.test2;
-
-public class ObjectArrayDumper {
-	public static void main(String[] args) {
-		
-	}
-}
