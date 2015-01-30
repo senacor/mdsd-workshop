@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;com.senacor.hh.set&apos;&#x0A;- Original project: &apos;com.senacor.hh.set&apos;&#x0A;- Original element: &apos;com.senacor.hh.set.generator.MyOutputConfigurationProvider.java&apos;" description="Delete element" element1="/src&lt;com.senacor.hh.set.generator{MyOutputConfigurationProvider.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1421789977501" subPackages="false" version="1.0"/>
-</session>
