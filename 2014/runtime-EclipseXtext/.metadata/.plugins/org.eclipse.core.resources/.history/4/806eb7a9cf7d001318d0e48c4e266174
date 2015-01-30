@@ -1,9 +1,0 @@
-package gentest;
-
-import my.generation.HamburgGreeter;
-
-public class GenTest {
-	public static void main(String[] args) {
-		HamburgGreeter.doGreeting();
-	}
-}

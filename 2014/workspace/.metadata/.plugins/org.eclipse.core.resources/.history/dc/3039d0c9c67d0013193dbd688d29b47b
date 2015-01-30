@@ -1,5 +1,0 @@
-package lambda
-
-class LambdaTestXtend {
-	LambdaTestJava.foo([str|System.out.println(str)])
-}
