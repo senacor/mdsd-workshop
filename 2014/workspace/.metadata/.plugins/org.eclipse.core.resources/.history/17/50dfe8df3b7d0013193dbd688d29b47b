@@ -1,9 +1,0 @@
-grammar com.senacor.mdsd.hh.rest.service.Service with org.eclipse.xtext.common.Terminals
-
-generate service "http://www.senacor.com/mdsd/hh/rest/service/Service"
-
-Model:
-	greetings+=Greeting*;
-	
-Greeting:
-	'Hello' name=ID '!';

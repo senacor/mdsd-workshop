@@ -1,9 +1,0 @@
-package foo.bar
-
-class HelloWorld {
-	val greeting ="Hello, World!"
-	
-	def static void main(String[] args) {
-		System.out.println("Hello, World!")
-	}
-}

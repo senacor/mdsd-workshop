@@ -1,7 +1,0 @@
-package foo.bar
-
-class HelloWorld {
-	def static main(String[] args) {
-		
-	}
-}

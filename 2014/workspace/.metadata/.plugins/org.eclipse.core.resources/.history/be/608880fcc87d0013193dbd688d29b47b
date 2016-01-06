@@ -1,7 +1,0 @@
-package generator
-
-class TemplateTest {
-	def static main(String[] args) {
-		
-	}
-}
