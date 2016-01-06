@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: unihh.sample1
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: unihh.sample1; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib,
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.xtend.lib,
+ org.eclipse.emf.common
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: unihh.sample1.serializer,
+ unihh.sample1.services,
+ unihh.sample1.scoping,
+ unihh.sample1.parser.antlr,
+ unihh.sample1.myDsl,
+ unihh.sample1.myDsl.impl,
+ unihh.sample1.myDsl.util,
+ unihh.sample1.parser.antlr.internal,
+ unihh.sample1.validation,
+ unihh.sample1,
+ unihh.sample1.generator
+Import-Package: org.apache.log4j

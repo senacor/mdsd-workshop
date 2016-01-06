@@ -1,0 +1,10 @@
+Persons {
+	rw firstname Ralph lastname Winzinger
+	dd firstname Donald lastname Duck
+	mm firstname Mickey lastname Mouse
+}
+
+Greetings {
+ Hello rw!
+ Bonjour mm!
+}

@@ -1,0 +1,21 @@
+grammar unihh.sample2.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.sample2.unihh/MyDsl"
+
+Model:
+	'Persons' '{'
+	   persons+=Person*
+	'}'
+	
+	'Greetings' '{'
+	   greetings+=Greeting*
+	'}';
+	
+Person:
+	name=ID 'firstname' firstname=ID 'lastname' lastname=ID;
+
+Greeting:
+	word=Greetword person=[Person] '!';
+	
+enum Greetword:
+  DE='Hallo' | EN='Hello' | FR='Bonjour';

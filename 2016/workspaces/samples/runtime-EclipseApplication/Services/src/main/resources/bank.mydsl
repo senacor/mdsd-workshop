@@ -1,0 +1,25 @@
+Domains {
+	SalesAndChannels desc "Kunde, Konto, ..."
+	Transactions desc "Überweisungen"
+}
+
+Bounded Contexts {
+	KundeUndKonto { 
+		Kunde
+		Konto
+	}
+}
+
+Aggregates {
+	Kunde {
+		kdnr : Int
+		vorname : String
+		nachname : String
+	}
+	
+	Konto {
+		ktonr : Int
+		waehrung : String
+		inhaber : String
+	}
+}

@@ -1,0 +1,38 @@
+grammar unihh.sample1.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.sample1.unihh/MyDsl"
+
+Model: {foo}
+	'Domains' '{'
+	   domains+=Domain*
+	'}'
+	
+	'Bounded Contexts' '{'
+	   contexts+=Context*
+	'}'
+	
+	'Aggregates' '{'
+	   aggregates+=Aggregate*
+	'}';
+	
+Domain:
+	name=ID 'desc' description=STRING;
+
+Context: 
+    name=ID '{'
+       aggregates+=[Aggregate]*
+    '}';
+
+Aggregate:
+    name=ID '{'
+       attributes+=Attribute*
+    '}';
+
+Attribute:
+    name=ID ':' type=Type;
+	
+enum Type:
+  T_STRING='String' | T_INT='Int';
+
+  
+ 
