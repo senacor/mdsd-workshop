@@ -1,9 +1,0 @@
-grammar Greeter with org.eclipse.xtext.common.Terminals
-
-generate greeter "http://www.Greeter"
-
-Model:
-	greetings+=Greeting*;
-	
-Greeting:
-	'Hello' name=ID '!';
