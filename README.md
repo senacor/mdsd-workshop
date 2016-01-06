@@ -1,5 +1,5 @@
-mdsd-workshop
-=============
+mdsd-workshop, 6.1.2016
+=======================
 
 MDSD Workshop an der Universität Hamburg
    
